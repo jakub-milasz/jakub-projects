@@ -1,8 +1,0 @@
-Dictionary - the programm processes text file and count appearances of words. It prints the words alphabetically and shows numbers of lines, in which they appears.
-  
-Ship - the programm searches the sea route to the harbour for the ship, which starts on field [0,0]. The ship can move only on fields, which have suitable depth.
-The sea is a matrix n by m with numbers pointing the depth. The harbour is on field [n-1, m-1]. It is loaded from a text file.
-
-Matrix - the programm solves sets of equations by using algebraic complement method. The matrix and size is loaded from a text file.
-  
-School - the programm shows the structure of school staff (object-oriented programming).
