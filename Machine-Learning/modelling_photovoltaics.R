@@ -25,7 +25,6 @@ ggplot() +
 summary(pol_reg)$r.squared
 
 new_data = data.frame(Month = c(8:12))
-new_data = data.frame(Month = c(5:7))
 for (i in seq(2, 8)){
   col_name = paste0("Month", i)
   new_data[[col_name]] = new_data$Month^i
@@ -36,7 +35,7 @@ sum_produced = sum(prediction)
 annual_produced = 2876 + sum_produced
 sell = annual_produced*0.815*0.28
 other = annual_produced*0.185*1.33
-predicted_saving = sell + other #2291.557
+predicted_saving = sell + other #2291.557 zł
 
 ############################################################################33
 # # Random Forest Regression
