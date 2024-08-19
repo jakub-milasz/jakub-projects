@@ -24,7 +24,6 @@ def listen_for_command():
 
     try:
         com = r.recognize_google(audio)
-        print("You said ", com)
         return com
     except sr.UnknownValueError:
         print("Could not understand audio. Please try again")
