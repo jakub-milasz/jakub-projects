@@ -1,3 +1,4 @@
+# Importing the dataset 
 dataset = read.csv("tabela.csv", sep = ';')
 
 # Polynomial Regression
@@ -9,6 +10,7 @@ for (i in seq(2,8)){
 # Fitting the model
 pol_reg = lm(formula = Produced ~., data = dataset)
 
+# Predictions
 y_pred_pol = predict(pol_reg, newdata = dataset[-2])
 
 # Visualisation
@@ -22,8 +24,9 @@ ggplot() +
   xlab("Month") +
   ylab("Produced")
 
-summary(pol_reg)$r.squared
+summary(pol_reg)$r.squared # 0.9786 - great value of R^2
 
+# Prediction for the following months
 new_data = data.frame(Month = c(8:12))
 for (i in seq(2, 8)){
   col_name = paste0("Month", i)
@@ -31,6 +34,12 @@ for (i in seq(2, 8)){
 }
 prediction = predict(pol_reg, newdata = new_data)
 
+# Counting the savings
+# 2876 kWh - energy produced so far
+# 0.28 zł - energy selling price
+# 1.33 zł - energy buying price
+# 0.815 - part of energy sold in produced energy
+# 0.185 - part of energy used in produced energy
 sum_produced = sum(prediction)
 annual_produced = 2876 + sum_produced
 sell = annual_produced*0.815*0.28
@@ -38,6 +47,7 @@ other = annual_produced*0.185*1.33
 predicted_saving = sell + other #2291.557 zł
 
 ############################################################################33
+# Other possible solution
 # # Random Forest Regression
 # dataset = read.csv("tabela.csv", sep = ';')
 # 
