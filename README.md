@@ -8,6 +8,9 @@ For example it can take a screenshoot or make a to-do list. The process of answe
 ## Machine Learning
 I have done some projects in order to train **regression**, **classification** and **clustering** in Python and R.
 
+## Mathematical Statistics
+This is one of courses which I have done during studies. The main goals of the course were learning usage of **Python** in **statistics** and better understanding **probability calculus**.
+
 ## Web pages
 **My portfolio** - this is a page that I created for myself. It is a simple page with the most important information about me and my projects.
 The page is responsive and contains some animations.
