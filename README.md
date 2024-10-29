@@ -9,8 +9,6 @@ I have done some projects in order to train **regression**, **classification** a
 This is one of courses which I have done during studies. The main goals of the course were learning usage of **Python** in **statistics** and better understanding **probability calculus**.
 
 ## Web pages
-**My portfolio** - this is a page that I created for myself. It is a simple page with the most important information about me and my projects.
-The page is responsive and contains some animations.
 
 **EkoSprzęt page** - this is a page that I created for a small company. It is a simple page with the most important information about the company and its offer.
 The page is responsive.
