@@ -1,1 +1,0 @@
-This model predicts the production of photovoltaic installation from April to December 2024. The model is based on monthly production of similar installation in 2021. Finally, we count the money saving when photovoltaics is installed.
