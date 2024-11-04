@@ -386,3 +386,9 @@ header ul li{
     font-size: 16px;
   }
 }
+
+@media only screen and (min-width: 1500px) {
+  .banner{
+    height: 800px;
+  }
+}
