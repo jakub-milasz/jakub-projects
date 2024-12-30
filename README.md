@@ -5,8 +5,6 @@
 ## Machine Learning
 I have done some projects in order to train **regression**, **classification** and **clustering** in Python and R.
 
-## Mathematical Statistics
-This is one of courses which I have done during studies. The main goals of the course were learning usage of **Python** in **statistics** and better understanding **probability calculus**.
 
 ## Web pages
 
