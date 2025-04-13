@@ -1,6 +1,6 @@
 // let cursor = document.querySelector(':rebak-spalinowy');
 
-for(let i = 1; i <=7; i++){
+for(let i = 1; i <=8; i++){
   const image = document.querySelector('.z'+i);
   const description = document.querySelector('.t'+i);
   image.addEventListener('click', () => {
